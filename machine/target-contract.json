@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "repository_id": "cherry-resume",
+    "display_name": "Cherry Master Resume",
+    "owner": "cherry",
+    "lane": "career",
+    "visibility": "public",
+    "status": "foundation"
+  },
+  "current": {
+    "state": "SEEDED",
+    "implemented": false,
+    "tested": false,
+    "deployed": false
+  },
+  "target": {
+    "purpose": "Specialist component for Cherry Master Resume",
+    "central_bottleneck": "Foundation compliance"
+  },
+  "invariants": [],
+  "promotion": {
+    "required_tests": ["unit", "adversarial"],
+    "require_exact_source_sha": true,
+    "require_receipt": true
+  }
+}

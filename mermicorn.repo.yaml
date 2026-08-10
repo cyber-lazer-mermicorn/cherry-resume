@@ -1,0 +1,33 @@
+schema_version: "1.0"
+
+id: cherry-resume
+display_name: Cherry Master Resume
+owner: cherry
+lane: career
+visibility: public
+status: foundation
+
+purpose:
+  problem: Specialist Mermicorn app for Cherry Master Resume
+  audience:
+    - Cherry
+    - portfolio reviewers
+
+shared_services:
+  boot: mermicorn-mega-boot
+  memory: mermicorn-memory
+  token_efficiency: mermicorn-token-saver
+  graphics: mermicorn-graphic-ai
+  commerce: mermicorn-commerce-ai
+
+privacy:
+  public:
+    - templates
+    - sanitized_case_studies
+  private:
+    - credentials
+    - unpublished_source
+
+first_proof:
+  artifact: master-resume-v1
+  status: planned
