@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.vault_env
+.vscode/
+.idea/
+node_modules/
+dist/
+build/
